@@ -18,4 +18,11 @@ function main(){
 			});
 		}
 	});
+	
+	$('.section').click(function(){
+		contador = 1;
+		$('nav').animate({
+			left: '-100%'
+		});
+	});
 };
