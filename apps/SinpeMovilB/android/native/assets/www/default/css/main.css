@@ -18,7 +18,7 @@ header nav {
 	width:90%;
 	max-width:1000px;
 	margin:20px auto;
-	background:#024959;
+	background:#2462ab;
 }
 
 .menu_bar {
@@ -35,10 +35,11 @@ header nav ul li {
 }
 
 header nav ul li a {
-	color:#fff;
-	padding:20px;
+	color:#ffef79;
+	padding:10px;
 	display:block;
 	text-decoration:none;
+	font-size:17px;
 }
 
 header nav ul li span {
@@ -46,7 +47,7 @@ header nav ul li span {
 }
 
 header nav ul li a:hover {
-	background:#037E8C;
+	background:#143463;
 }
 
 section {
@@ -76,11 +77,11 @@ section {
 
 	.menu_bar .bt-menu {
 		display:block;
-		padding:20px;
-		background:#024959;
+		padding:10px;
+		background:#2462ab;
 		color:#fff;
 		text-decoration:none;
-		font-size:25px;
+		font-size:20px;
 		-webkit-box-sizing:border-box;
 		-moz-box-sizing:border-box;
 		box-sizing:border-box;
