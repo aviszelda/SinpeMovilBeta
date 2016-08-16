@@ -1,3 +1,5 @@
+/consultas.html
+/contactos.html
 /css/fonts.css
 /css/fonts/icomoon.eot
 /css/fonts/icomoon.svg
@@ -7,13 +9,16 @@
 /css/materialize.css
 /filelist
 /images/icon.png
+/images/logobarra.png
 /images/thumbnail.png
 /index.html
 /js/initOptions.js
+/js/jquery-2.1.4.min.js
 /js/main.js
 /js/materialize.js
-/js/menu.js
 /js/messages.js
+/pasar_dinero.html
+/tipo_cambio.html
 /worklight/cordova.js
 /worklight/cordova_plugins.js
 /worklight/messages/de/messages.json
