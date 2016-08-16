@@ -4,12 +4,14 @@
 /css/fonts/icomoon.ttf
 /css/fonts/icomoon.woff
 /css/main.css
+/css/materialize.css
 /filelist
 /images/icon.png
 /images/thumbnail.png
 /index.html
 /js/initOptions.js
 /js/main.js
+/js/materialize.js
 /js/menu.js
 /js/messages.js
 /worklight/cordova.js
