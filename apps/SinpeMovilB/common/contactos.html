@@ -1,23 +1,55 @@
 <!DOCTYPE HTML>
 <html>
-   	<head>
-   		<meta charset="UTF-8">
-   		<title>SinpeMovilB</title>
-   		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
-   		<link rel="stylesheet" href="css/main.css">
-   		<link rel="stylesheet" href="css/materialize.css">
-   		<script src="js/jquery-2.1.4.min.js"></script>
-   		<script>window.$ = window.jQuery = WLJQ;</script>
-   	</head>
-   	<body>
-
-    	<div id="menu-content"></div>
+    	<head>
+    		<meta charset="UTF-8">
+    		<title>SinpeMovilB</title>
+    		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+    		<link rel="stylesheet" href="css/main.css">
+    		<link rel="stylesheet" href="css/materialize.css">
+    		<script>window.$ = window.jQuery = WLJQ;</script>
+    	</head>
+    	<body>
     	
-		<script>
-			$(document).ready( function() {
-				$("#menu-content").load("menu.html");
-			});
-		</script>
-   		
-   	</body>
+    	<ul id="slide-out" class="side-nav">
+    		<li class="material-icons"><a href="pasar_dinero.html">Pasar Dinero</a></li>
+    		<li><div class="divider"></div></li>
+    		<li class="material-icons"><a href="tipo_cambio.html">Tipo de Cambio</a></li>
+    		<li><div class="divider"></div></li>
+    		<li class="material-icons"><a href="consultas.html">Consultas</a></li>
+    		<li><div class="divider"></div></li>
+    		<li class="material-icons"><a href="contactos.html">Contactos Favoritos</a></li>
+    		<li><div class="divider"></div></li>
+    		<!-- 
+		    <li><div class="divider"></div></li>
+		    <li><a class="subheader">Subheader</a></li>
+		    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li> -->
+		    
+		  </ul>
+		  
+		  <div class="navigation_bar">
+		  <a href="#" data-activates="slide-out" class="button-collapse"><span>☰</span></a>
+		  <span id="menu_title" class="menu_title">BN SINPE Móvil</span>
+    		</div>
+    		<div id="logo_bar" class="logo_bar">
+				<img class="sinpe_logo" src="images/logobarra.png"/>
+	        </div>
+    		
+    		<script src="js/jquery-2.1.4.min.js"></script>
+    		<script src="js/materialize.js"></script>
+    		<script src="js/initOptions.js"></script>
+    		<script src="js/main.js"></script>
+    		<script src="js/messages.js"></script>
+    		
+    		<script>
+		      $(document).ready(function () {
+                  $('.button-collapse').sideNav({
+                		    menuWidth: 300, // Default is 240
+                		    edge: 'left', // Choose the horizontal origin
+                		    closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+                		}
+                	);
+                });
+		  </script>
+    		
+    	</body>
 </html>
