@@ -32,47 +32,11 @@
 		<script>window.$ = window.jQuery = WLJQ;</script>
     </head>
     <body>
-        <ul class="side-nav" id="slide-out">
-            <li class="material-icons">
-                <a href="pasar_dinero.html">Pasar Dinero</a>
-            </li>
-            <li>
-                <div class="divider"></div>
-            </li>
-            <li class="material-icons">
-                <a href="tipo_cambio.html">Tipo de Cambio</a>
-            </li>
-            <li>
-                <div class="divider"></div>
-            </li>
-            <li class="material-icons">
-                <a href="consultas.html">Consultas</a>
-            </li>
-            <li>
-                <div class="divider"></div>
-            </li>
-            <li class="material-icons">
-                <a href="contactos.html">Contactos Favoritos</a>
-            </li>
-            <li>
-                <div class="divider"></div>
-            </li>
-    		<!-- 
-		    <li><div class="divider"></div></li>
-		    <li><a class="subheader">Subheader</a></li>
-		    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li> -->
-        </ul>
-        <div class="navigation_bar">
-            <a class="button-collapse" data-activates="slide-out" href="#"><span>☰</span></a>
-		  <span class="menu_title" id="menu_title">BN SINPE M&oacute;vil</span>
-        </div>
-        <div class="logo_bar" id="logo_bar">
-            <img class="sinpe_logo" src="images/logobarra.png">
-	        </div>
-        <script src="js/materialize.js"></script>
-    		<script src="js/initOptions.js"></script>
-    		<script src="js/main.js"></script>
-    		<script src="js/messages.js"></script>
-    		<script src="js/index.js"></script>
+        <div id="menu-content"></div>
+        <script>
+				$(document).ready( function() {
+					$("#menu-content").load("menu.html");
+				});
+			</script>
     </body>
 </html>
