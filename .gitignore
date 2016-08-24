@@ -44,7 +44,7 @@ apps/SinpeMovilB/android/css/**
 apps/SinpeMovilB/android/images/**
 apps/SinpeMovilB/android/js/**
 apps/SinpeMovilB/android/nativeResources/**
-apps/SinpeMovilB/android/native/bin/*/*
+apps/SinpeMovilB/android/native/bin/**/*
 
 apps/SinpeMovilB/android/native/bin/res/crunch/drawable/**
 apps/SinpeMovilB/android/native/bin/res/crunch/drawable-hdpi-v11/**
