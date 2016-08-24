@@ -40,8 +40,8 @@ Thumbs.db
 *.cache
 *.dex
 *.properties
-Sinpe Móvil Beta/workspace/SinpeMovilBeta/apps/SinpeMovilB/android/css/*
-Sinpe Móvil Beta/workspace/SinpeMovilBeta/apps/SinpeMovilB/android/images/*
-Sinpe Móvil Beta/workspace/SinpeMovilBeta/apps/SinpeMovilB/android/js/*
-Sinpe Móvil Beta/workspace/SinpeMovilBeta/apps/SinpeMovilB/android/nativeResources/*
-Sinpe Móvil Beta/workspace/SinpeMovilBeta/apps/SinpeMovilB/android/native/bin/*
+apps/SinpeMovilB/android/css/*
+apps/SinpeMovilB/android/images/*
+apps/SinpeMovilB/android/js/*
+apps/SinpeMovilB/android/nativeResources/*
+apps/SinpeMovilB/android/native/bin/*
