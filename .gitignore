@@ -44,14 +44,14 @@ apps/SinpeMovilB/android/css/**
 apps/SinpeMovilB/android/images/**
 apps/SinpeMovilB/android/js/**
 apps/SinpeMovilB/android/nativeResources/**
-apps/SinpeMovilB/android/native/bin/**
+apps/SinpeMovilB/android/native/bin/*/*
 
-Sinpe Móvil Beta/workspace/SinpeMovilBeta/apps/SinpeMovilB/android/native/bin/res/crunch/drawable/*
-Sinpe Móvil Beta/workspace/SinpeMovilBeta/apps/SinpeMovilB/android/native/bin/res/crunch/drawable-hdpi-v11/*
-Sinpe Móvil Beta/workspace/SinpeMovilBeta/apps/SinpeMovilB/android/native/bin/res/crunch/drawable-hdpi/*
-Sinpe Móvil Beta/workspace/SinpeMovilBeta/apps/SinpeMovilB/android/native/bin/res/crunch/drawable-ldpi-v11/*
-Sinpe Móvil Beta/workspace/SinpeMovilBeta/apps/SinpeMovilB/android/native/bin/res/crunch/drawable-ldpi/*
-Sinpe Móvil Beta/workspace/SinpeMovilBeta/apps/SinpeMovilB/android/native/bin/res/crunch/drawable-mdpi-v11/*
-Sinpe Móvil Beta/workspace/SinpeMovilBeta/apps/SinpeMovilB/android/native/bin/res/crunch/drawable-mdpi/*
-Sinpe Móvil Beta/workspace/SinpeMovilBeta/apps/SinpeMovilB/android/native/bin/res/crunch/drawable-xhdpi-v11/*
-Sinpe Móvil Beta/workspace/SinpeMovilBeta/apps/SinpeMovilB/android/native/bin/res/crunch/drawable-xhdpi/*
+apps/SinpeMovilB/android/native/bin/res/crunch/drawable/**
+apps/SinpeMovilB/android/native/bin/res/crunch/drawable-hdpi-v11/**
+apps/SinpeMovilB/android/native/bin/res/crunch/drawable-hdpi/**
+apps/SinpeMovilB/android/native/bin/res/crunch/drawable-ldpi-v11/**
+apps/SinpeMovilB/android/native/bin/res/crunch/drawable-ldpi/**
+apps/SinpeMovilB/android/native/bin/res/crunch/drawable-mdpi-v11/**
+apps/SinpeMovilB/android/native/bin/res/crunch/drawable-mdpi/**
+apps/SinpeMovilB/android/native/bin/res/crunch/drawable-xhdpi-v11/**
+apps/SinpeMovilB/android/native/bin/res/crunch/drawable-xhdpi/**
