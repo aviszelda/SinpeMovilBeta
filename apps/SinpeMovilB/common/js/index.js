@@ -47,3 +47,8 @@ function maxLengthCheck(object) {
   if (object.value.length > object.maxLength)
     object.value = object.value.slice(0, object.maxLength)
 }
+
+function sendSMS() {
+	window.open("sms:+380632759955?body=Hello from Appery.io!", "_system");
+	console.log("botón presionado");
+}

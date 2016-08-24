@@ -82,7 +82,9 @@ textarea:focus, input:focus{
 	font-family: "Oxygen", Helvetica, sans-serif;
 }
 .send_button:focus {
-	outline: none;
+	outline: none !important;
+    -webkit-box-shadow: none !important;
+  	box-shadow: none !important;
 }
 .div_consultas {
 	text-align: center;
