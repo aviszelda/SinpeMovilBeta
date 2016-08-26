@@ -14,7 +14,6 @@ function wlCommonInit(){
 	 */
 	
 	// Common initialization code goes here
-	
 }
 
 /* JavaScript content from js/main.js in folder android */

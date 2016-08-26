@@ -1,0 +1,7 @@
+<div class="pasar_dinero">
+	<span class="span_text">Envíe dinero a un Monedero Móvil</span>
+	<input type="tel" class="input_textbox" placeholder="Digite el número de teléfono" maxlength="20" onkeypress="return isNumberKey(event)">
+	<input type="number" class="input_textbox" placeholder="Digite el monto a transferir (Colones)" maxlength="10" min="1" max="999" onkeypress="return isNumberKey(event)" oninput="maxLengthCheck(this)">
+	<textarea rows="" cols="" class="input_detail" placeholder="Detalle (Opcional)" maxlength="50"></textarea>
+	<button id="send_button" class="send_button" onclick="sendSMS()">Enviar</button>
+</div>
