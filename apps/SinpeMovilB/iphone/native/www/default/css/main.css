@@ -1,97 +1,120 @@
 
 /* Stylesheet content from css/main.css in folder common */
-* {
-	margin:0;
-	padding:0;
-}
-
 body {
-	background:#FFFFFA;
-	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	background: #ececec;
 }
-
-header {
-	width:100%;
+textarea:focus, input:focus{
+    outline: none !important;
+    -webkit-box-shadow: none !important;
+  	box-shadow: none !important;
 }
-
-header nav {
-	width:90%;
-	max-width:1000px;
-	margin:20px auto;
-	background:#2462ab;
+*:focus {
+    outline: none !important;
+    -webkit-box-shadow: none !important;
+  	box-shadow: none !important;
 }
-
-.menu_bar {
-	display:none;
+.button-collapse {
+	padding-left: 20px;
+	line-height: 2.3;
 }
-
-header nav ul {
-	overflow:hidden;
-	list-style:none;
+.navigation_bar {
+	background: #1c62a3;
+    height: 40px;
 }
-
-header nav ul li {
-	float:left;
+.sinpe_logo {
+	max-height:100%; 
+	max-width:100%;
 }
-
-header nav ul li a {
-	color:#ffef79;
-	padding:10px;
-	display:block;
-	text-decoration:none;
-	font-size:17px;
+.menu_title {
+	color: white;
+	font-size: 17px;
+	margin-left: 15px;
 }
-
-header nav ul li span {
-	margin-right:10px;
+.pasar_dinero {
+	text-align: center;
+	margin-top: 20px;
+	line-height: 2.3;
 }
-
-header nav ul li a:hover {
-	background:#143463;
+.span_text {
+	font-size: 17px;
+	color: #2462ab;
 }
-
-section {
-	padding:20px;
+.input_textbox {
+	width: 280px !important;
+	height: 30px !important;
+    margin-top: 20px !important;
+	border-color: #a7c0dd !important;
+	border-style: solid !important;
+    border-width: 2px !important;
+    font-size: 15px !important;
+    color: #2462ab !important;
+    padding-left: 8px !important;
+    font-family: "Oxygen", Helvetica, sans-serif !important;
 }
-
-@media screen and (max-width:800px ) {
-	header nav {
-		width:80%;
-		height:100%;
-		left:-100%;
-		margin:0;
-		position: fixed;
-	}
-
-	header nav ul li {
-		display:block;
-		float:none;
-		border-bottom:1px solid rgba(255,255,255, .3);
-	}
-
-	.menu_bar {
-		display:block;
-		width:100%;
-		background:#ccc;
-	}
-
-	.menu_bar .bt-menu {
-		display:block;
-		padding:10px;
-		background:#2462ab;
-		color:#fff;
-		text-decoration:none;
-		font-size:20px;
-		-webkit-box-sizing:border-box;
-		-moz-box-sizing:border-box;
-		box-sizing:border-box;
-	}
-
-	.menu_bar span {
-		float:left;
-		padding-right:20px;
-		font-size:27px;
-	}
+.input_textbox:focus {
+	outline: none !important;
+}
+.input_detail {
+	width: 280px !important;
+	height: 80px !important;
+    margin-top: 20px !important;
+	border-color: #a7c0dd !important;
+	border-style: solid !important;
+    border-width: 2px !important;
+    font-size: 15px !important;
+    color: #2462ab !important;
+    padding-left: 8px !important;
+    padding-top: 5px !important;
+    padding-right: 5px !important;
+    font-family: "Oxygen", Helvetica, sans-serif !important;
+}
+.input_detail:focus {
+	outline: none !important;
+}
+.send_button {
+	color: white;
+	width: 280px;
+	height: 40px;
+	margin-top: 20px;
+	background: #9b999b;
+	font-size: 15px;
+	border-color: #9b999b;
+    border-style: solid;
+    border-width: 2px;
+	font-family: "Oxygen", Helvetica, sans-serif;
+}
+.send_button:focus {
+	outline: none;
+}
+.div_consultas {
+	text-align: center;
+	margin-top: 40px;
+	margin-left: 10px;
+    margin-right: 10px;
+    line-height: 1.5;
+}
+.buttons_images {
+	padding-top: 40px;
+	text-align: center;
+}
+.button_image {
+	width: 80px;
+	margin-right: 40px;
+    margin-left: 40px;
+	font-family: "Oxygen", Helvetica, sans-serif;
+}
+.button_image:focus {
+	outline: none;
+}
+.text_images {
+	text-align: center;
+}
+.text_image {
+	padding-right: 35px;
+    padding-left: 55px;
+    color: #2462ab;
+    font-size: 17px !important;
+	font-family: "Oxygen", Helvetica, sans-serif;
 }
 /* Stylesheet content from css/main.css in folder iphone */
 

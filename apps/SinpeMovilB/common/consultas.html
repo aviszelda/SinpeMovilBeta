@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+    	<head>
+    		<meta charset="UTF-8">
+    		<title>SinpeMovilB</title>
+    		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+    		<link rel="stylesheet" href="css/main.css">
+    		<link rel="stylesheet" href="css/materialize.css">
+    		<script src="js/jquery-2.1.4.min.js"></script>
+    		<script>window.$ = window.jQuery = WLJQ;</script>
+    	</head>
+    	<body>
+    	
+	    	<div id="menu-content"></div>
+	    	
+			<script>
+				$(document).ready( function() {
+					$("#menu-content").load("menu.html");
+				});
+			</script>
+			
+				<div class="div_consultas">
+					<span class="span_text">Consulte el saldo o sus últimos cinco movimientos de su monedero.</span>
+				</div>
+				<div class="buttons_images">
+					<input class="button_image" type="image" src="images/btn_movimientos.png"/>
+					<input class="button_image" type="image" src="images/btn_saldo.png"/>
+				</div>
+				<div class="text_images">
+					<span class="text_image">Saldos</span>
+					<span class="text_image">Movimientos</span>
+				</div>
+    		
+    	</body>
+</html>

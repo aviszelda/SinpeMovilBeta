@@ -1,0 +1,57 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.apk
+*.wlapp
+*.cache
+*.dex
+*.properties
+apps/SinpeMovilB/android/css/**
+apps/SinpeMovilB/android/images/**
+apps/SinpeMovilB/android/js/**
+apps/SinpeMovilB/android/nativeResources/**
+apps/SinpeMovilB/android/native/bin/**/*
+
+apps/SinpeMovilB/android/native/bin/res/crunch/drawable/**
+apps/SinpeMovilB/android/native/bin/res/crunch/drawable-hdpi-v11/**
+apps/SinpeMovilB/android/native/bin/res/crunch/drawable-hdpi/**
+apps/SinpeMovilB/android/native/bin/res/crunch/drawable-ldpi-v11/**
+apps/SinpeMovilB/android/native/bin/res/crunch/drawable-ldpi/**
+apps/SinpeMovilB/android/native/bin/res/crunch/drawable-mdpi-v11/**
+apps/SinpeMovilB/android/native/bin/res/crunch/drawable-mdpi/**
+apps/SinpeMovilB/android/native/bin/res/crunch/drawable-xhdpi-v11/**
+apps/SinpeMovilB/android/native/bin/res/crunch/drawable-xhdpi/**
