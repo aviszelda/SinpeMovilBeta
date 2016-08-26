@@ -1,31 +1,7 @@
-<!DOCTYPE HTML>
-<html>
-    	<head>
-    		<meta charset="UTF-8">
-    		<title>SinpeMovilB</title>
-    		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
-    		<link rel="stylesheet" href="css/main.css">
-    		<link rel="stylesheet" href="css/materialize.css">
-    		<script src="js/jquery-2.1.4.min.js"></script>
-    		<script>window.$ = window.jQuery = WLJQ;</script>
-    	</head>
-    	<body>
-    	
-	    	<div id="menu-content"></div>
-	    	
-			<script>
-				$(document).ready( function() {
-					$("#menu-content").load("menu.html");
-				});
-			</script>
-			
-			<div class="pasar_dinero">
-				<span class="span_text">Envíe dinero a un Monedero Móvil</span>
-				<input type="tel" class="input_textbox" placeholder="Digite el número de teléfono" maxlength="20" onkeypress="return isNumberKey(event)">
-				<input type="number" class="input_textbox" placeholder="Digite el monto a transferir (Colones)" maxlength="10" min="1" max="999" onkeypress="return isNumberKey(event)" oninput="maxLengthCheck(this)">
-				<textarea rows="" cols="" class="input_detail" placeholder="Detalle (Opcional)" maxlength="50"></textarea>
-				<button id="send_button" class="send_button">Enviar</button>
-			</div>
-    		
-    	</body>
-</html>
+<div class="pasar_dinero">
+	<span class="span_text">Envíe dinero a un Monedero Móvil</span>
+	<input type="tel" class="input_textbox" placeholder="Digite el número de teléfono" maxlength="20" onkeypress="return isNumberKey(event)">
+	<input type="number" class="input_textbox" placeholder="Digite el monto a transferir (Colones)" maxlength="10" min="1" max="999" onkeypress="return isNumberKey(event)" oninput="maxLengthCheck(this)">
+	<textarea rows="" cols="" class="input_detail" placeholder="Detalle (Opcional)" maxlength="50"></textarea>
+	<button id="send_button" class="send_button" onclick="sendSMS()">Enviar</button>
+</div>
