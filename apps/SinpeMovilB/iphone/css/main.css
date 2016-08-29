@@ -3,7 +3,7 @@
 
 /*Optional iOS 7 status bar filler*/
 #wl_ios7bar{
-	background-color: white;
+	background-color: #1c62a3;
 	height: 15pt;
 	position: fixed;
 	top: 0;
