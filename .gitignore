@@ -55,3 +55,11 @@ apps/SinpeMovilB/android/native/bin/res/crunch/drawable-mdpi-v11/**
 apps/SinpeMovilB/android/native/bin/res/crunch/drawable-mdpi/**
 apps/SinpeMovilB/android/native/bin/res/crunch/drawable-xhdpi-v11/**
 apps/SinpeMovilB/android/native/bin/res/crunch/drawable-xhdpi/**
+
+apps/SinpeMovilB/android/native/assets/**
+apps/SinpeMovilB/android/native/assets/www/default/css/**
+apps/SinpeMovilB/android/native/assets/www/default/worklight/**
+apps/SinpeMovilB/iphone/native/SinpeMovilBetaSinpeMovilBIphone.xcodeproj/project.xcworkspace/xcuserdata/**
+apps/SinpeMovilB/iphone/native/www/default/css/**
+apps/SinpeMovilB/iphone/native/www/default/worklight/**
+bin/**
