@@ -20,14 +20,14 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         id        = "SinpeMovilB"
         version   = "1.0.0.0">
-    <name>SinpeMovilB</name>
+    <name>SinpeMovilBeta</name>
 
     <description>
-        SinpeMovilB
+        SinpeMovilBeta
     </description>
 
-    <author href="http://mycompany.com" email="application author's e-mail">
-        application's author
+    <author href="http://www.mobtion.com/" email="agvenegas@mobtion.com">
+        Ana Gabriela Venegas Li
     </author>
 
     <access origin="*"/>
