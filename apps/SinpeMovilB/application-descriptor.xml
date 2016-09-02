@@ -16,7 +16,7 @@
     <targetCategory>UNDEFINED</targetCategory>
     <licenseAppType>APPLICATION</licenseAppType>
     <thumbnailImage>common/images/thumbnail.png</thumbnailImage>
-    <iphone bundleId="com.SinpeMovilB" version="1.0">
+    <iphone bundleId="com.mobtion.SinpeMovilB" version="1.0">
         <worklightSettings include="false"/>
         <security>
             <encryptWebResources enabled="false"/>
