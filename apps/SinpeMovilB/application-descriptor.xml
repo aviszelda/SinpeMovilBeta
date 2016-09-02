@@ -3,13 +3,13 @@
 			 5725-I43 (C) Copyright IBM Corp. 2006, 2013, 2015. All Rights Reserved.
 			 US Government Users Restricted Rights - Use, duplication or
              disclosure restricted by GSA ADP Schedule Contract with IBM Corp. --><!-- Attribute "id" must be identical to application folder name --><application xmlns="http://www.worklight.com/application-descriptor" id="SinpeMovilB" platformVersion="7.1.0.00.20160513-1006">
-    <displayName>SinpeMovilB</displayName>
-    <description>SinpeMovilB</description>
+    <displayName>SinpeMovilBeta</displayName>
+    <description>SinpeMovilBeta</description>
     <author>
-        <name>application's author</name>
-        <email>application author's e-mail</email>
-        <homepage>http://mycompany.com</homepage>
-        <copyright>Copyright My Company</copyright>
+        <name>Ana Gabriela Venegas Li</name>
+        <email>agvenegas@mobtion.com</email>
+        <homepage>http://www.mobtion.com/</homepage>
+        <copyright>Copyright Mobtion</copyright>
     </author>
     <mainFile>index.html</mainFile>
     <features/>
